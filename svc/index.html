@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<link href="abc_files/overview.css" rel="stylesheet" type="text/css">
+<link href="./css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Varela+Round">
+<link rel="stylesheet" type="text/css" href="style_login.css" />
+<script type="text/javascript" charset="utf-8" src="abc_files/pt_utility.js"></script>
+<title>登陆成绩查询页面</title>
+
+</head>
+
+<body>
+<iframe name="header" marginwidth=0 marginheight=0 width=100% height=50 src="head.html" frameborder=0 scrolling="no"></iframe>
+<br><br>
+
+
+	<div id="login">
+
+		<h2><span class="fontawesome-lock"></span>登陆</h2>
+
+		<form action="chekgrade1850.php" method="POST">
+
+			<fieldset>
+
+				<p><label for="email">学号</label></p>
+				<p><input  name="user" value="mail@address.com" onBlur="if(this.value=='')this.value=''" onFocus="if(this.value=='mail@address.com')this.value=''"></p> <!-- JS because of IE support; better: placeholder="学号" -->
+
+				<p><label for="password">姓名</label></p>
+				<p><input type="password" id="password" value="password" onBlur="if(this.value=='')this.value='password'" onFocus="if(this.value=='password')this.value=''"></p> <!-- JS because of IE support; better: placeholder="password" -->
+
+				<p><input type="submit" value="查询"></p>
+
+			</fieldset>
+
+		</form>
+
+	</div>
+
+</body>	
+</html>

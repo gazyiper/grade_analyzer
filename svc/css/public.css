@@ -1,0 +1,36 @@
+ @charset "utf-8";
+/**********public**********/
+* { margin: 0; padding: 0; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+a { color: #727272; font-family: "arial", "微软雅黑"; font-size: 13px; text-decoration: none; }
+html { overflow-x: hidden; }
+body { background:#fff; color: #727272; font-family: "微软雅黑"; font-size: 12px; }
+a, body { }
+img { border: 0 none; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+ol, ul, li { list-style: none outside none; }
+dl, dt, dd, ul, li { margin: 0; padding: 0; }
+input, textarea { outline: medium none; }
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 { }
+.uetab ul li a, .uetab ul .tabcur, .artprev, .artnext, .foldround, .foldround b, .morecomment a, .ctags li, .ctags li a, .share li a, .cates li a .sca, .cates li, .cates li a, .likeatag ul li a:hover, .likeatag ul .tagselected a, .likeatag ul li a:hover .sca, .likeatag ul .tagselected .sca, .addfavorite, .searchtags li, .closetag, .searchbtn, .pages li a, .share .sinal a, .postbtn a, .userpanel dt, .userpanel dd li a, .upmenu a { transition: all 0.3s linear 0s; }
+a { color: #727272; }
+a:link, a:visited, a:active { color: #727272; }
+a:hover { color: #f15050; }
+.fl { float: left; }
+.fr { float: right; }
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+em { font-style: normal; }
+.arial { font-family: "arial"; }
+*::-moz-selection {
+ background: none repeat scroll 0 0 #f15050;
+ color: #FFFFFF;
+}
+.color_grey { color:#a3a3a3; }
+.color_red { color:#f15050; }
+.color_blue { color:#2ba3d5; }
+.color_blue a{ color:#2ba3d5; }
+.pad-top20 { padding-top:20px; }
+.pad-btm30 { padding-bottom:30px; }
+.pad-right30 { padding-right:30px; }
+.wrap { width:1170px; padding:0px; margin:0 auto; overflow:hidden; }
